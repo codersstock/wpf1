@@ -1,0 +1,203 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="School Management" Height="600" Width="1024" BorderBrush="Black" 
+        WindowStartupLocation="CenterScreen" MinHeight="450" MinWidth="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+
+
+
+        <!-- ==============================================================
+                                Menu Bar Starts Here                   
+        ===============================================================-->
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Background="#263238">
+
+
+
+        </StackPanel>
+
+
+
+        <!-- //////////////////////////////////////////////////////////////
+                                Menu Bar Ends Here                   
+        ///////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+        <!-- ==============================================================
+                                Dashboard Starts Here                   
+        ===============================================================-->
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Background="#F5F5F5">
+
+
+
+            <Grid Grid.Row="0" Grid.Column="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+
+                <!--    Navigation    -->
+                <StackPanel Grid.Row="0" Margin="0 0 0 20" Grid.Column="0" Grid.ColumnSpan="2" Background="White" Height="40">
+                    
+                </StackPanel>
+                
+                <!--  END  Navigation    -->
+
+
+                
+
+
+
+
+                <!-- Status bars -->
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+
+
+                    <StackPanel Margin="15 15 15 15" Height="70" Width="200" Background="#FF8A65">
+                        <Border CornerRadius="25" Background="Black" Margin="4">
+
+                        </Border>
+
+                    </StackPanel>
+
+
+
+                    <StackPanel Margin="0 15 15 15" Height="70" Width="200" Background="#4DB6AC">
+                        <Border CornerRadius="25" Background="Black" Margin="4">
+
+                        </Border>
+
+                    </StackPanel>
+
+
+
+                    <StackPanel Margin="0 15 15 15" Height="70" Width="200" Background="#F06292">
+                        <Border CornerRadius="25" Background="Black" Margin="4">
+
+                        </Border>
+
+                    </StackPanel>
+
+
+
+
+
+                    <StackPanel Margin="0 15 15 15" Height="70" Width="185" Background="#9575CD">
+                        <Border CornerRadius="25" Background="Black" Margin="4">
+
+                        </Border>
+
+                    </StackPanel>
+
+
+
+
+
+                </StackPanel>
+
+                <!-- End Status bars -->
+
+
+                <!-- ================    CALENDER STARTS    ================-->
+
+                <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="10 40 0 10" Width="500" Height="350" Background="LimeGreen">
+                    
+                </StackPanel>
+
+
+                <!-- ================    CALENDER ENDS    ================-->
+
+
+                
+                
+                
+                
+                
+                
+                <!-- ================    Notifications STARTS    ================-->
+
+                <StackPanel Name="Notifications" Grid.Row="2" Grid.Column="1" Margin="0 40 20 10" Width="400" Height="350" Background="Orange">
+
+                </StackPanel>
+
+
+                <!-- ================    Notifications ENDS    ================-->
+
+
+                
+                
+                
+                
+                
+
+                  <!-- ================    Draft Box STARTS    ================-->
+
+                <StackPanel Name="DraftBox" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="25" Height="100" Background="Red">
+
+                </StackPanel>
+
+
+                <!-- ================    Draft Box ENDS    ================-->
+
+
+
+
+
+
+
+
+
+
+
+            </Grid>
+
+        </StackPanel>
+
+        
+
+        <!-- //////////////////////////////////////////////////////////////
+                                Dashboard Ends Here                   
+        ///////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+
+
+
+
+
+    
+
+    </Grid>
+</Window>
